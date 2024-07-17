@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para o corpo da página */
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 1em 0; /* Define o padding no cabeçalho */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; 
+    text-align: center; /* Centraliza o texto da lista de navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin-right: 10px; 
+}
+
+nav ul li a {
+    color: white; /* Define a cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex; /* Utiliza flexbox para o formulário */
+    flex-direction: column; /* Organiza os elementos do formulário em uma coluna */
+}
+
+form label {
+    margin-top: 10px; 
+}
+
+form input, form textarea {
+    padding: 10px; /* Define o padding dos campos de entrada e área de texto */
+    margin-top: 5px; /* Define a margem superior dos campos de entrada e área de texto */
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer;
+}
